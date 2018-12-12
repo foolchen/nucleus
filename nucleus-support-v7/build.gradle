@@ -19,8 +19,8 @@ configurations {
 }
 
 dependencies {
-    compile "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
-    compile "info.android15.nucleus5:nucleus:$VERSION_NAME"
+    api "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
+    api "info.android15.nucleus5:nucleus:$VERSION_NAME"
     compileJavadoc "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
     compileJavadoc "info.android15.nucleus5:nucleus:$VERSION_NAME"
 }

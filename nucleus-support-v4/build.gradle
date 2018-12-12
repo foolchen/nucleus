@@ -19,9 +19,9 @@ configurations {
 }
 
 dependencies {
-    compile "com.android.support:support-v4:$rootProject.supportLibraryVersion"
-    compile "info.android15.nucleus5:nucleus:$VERSION_NAME"
-    compileJavadoc "com.android.support:support-v4:$rootProject.supportLibraryVersion"
+    api "com.android.support:support-v4:$rootProject.supportLibraryVersion"
+    api "info.android15.nucleus5:nucleus:$VERSION_NAME"
+    api "com.android.support:support-v4:$rootProject.supportLibraryVersion"
     compileJavadoc "info.android15.nucleus5:nucleus:$VERSION_NAME"
 }
 

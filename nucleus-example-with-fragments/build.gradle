@@ -21,13 +21,13 @@ repositories {
 }
 
 dependencies {
-    compile "info.android15.nucleus5:nucleus:$VERSION_NAME"
-    compile "info.android15.nucleus5:nucleus-support-v4:$VERSION_NAME"
-    compile "info.android15.nucleus5:nucleus-support-v7:$VERSION_NAME"
+    api "info.android15.nucleus5:nucleus:$VERSION_NAME"
+    api "info.android15.nucleus5:nucleus-support-v4:$VERSION_NAME"
+    api "info.android15.nucleus5:nucleus-support-v7:$VERSION_NAME"
 
-    compile 'com.squareup.retrofit2:retrofit:2.2.0'
-    compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
-    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    compile 'io.reactivex.rxjava2:rxjava:2.0.5'
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    api 'com.squareup.retrofit2:converter-gson:2.4.0'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    api 'io.reactivex.rxjava2:rxjava:2.2.4'
 }

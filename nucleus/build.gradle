@@ -15,12 +15,12 @@ configurations {
 }
 
 dependencies {
-    compile "com.android.support:support-annotations:$rootProject.supportAnnotationsVersion"
-    compile "io.reactivex.rxjava2:rxjava:$rootProject.rxVersion"
+    api "com.android.support:support-annotations:$rootProject.supportAnnotationsVersion"
+    api "io.reactivex.rxjava2:rxjava:$rootProject.rxVersion"
     compileJavadoc "com.android.support:support-annotations:$rootProject.supportAnnotationsVersion"
     compileJavadoc "io.reactivex.rxjava2:rxjava:$rootProject.rxVersion"
 
-    testCompile project(':nucleus-test-kit')
+    testImplementation project(':nucleus-test-kit')
 }
 
 android.libraryVariants.all { variant ->
