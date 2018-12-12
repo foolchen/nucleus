@@ -1,7 +1,6 @@
 package nucleus5.presenter.delivery;
 
-import android.support.annotation.Nullable;
-
+import androidx.annotation.Nullable;
 import io.reactivex.Notification;
 import io.reactivex.Observable;
 import io.reactivex.functions.BiConsumer;

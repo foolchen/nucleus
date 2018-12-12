@@ -1,8 +1,8 @@
 package nucleus5.view;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 
+import androidx.fragment.app.Fragment;
 import nucleus5.factory.PresenterFactory;
 import nucleus5.factory.ReflectionPresenterFactory;
 import nucleus5.presenter.Presenter;

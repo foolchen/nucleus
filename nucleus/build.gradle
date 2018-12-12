@@ -15,9 +15,9 @@ configurations {
 }
 
 dependencies {
-    api "com.android.support:support-annotations:$rootProject.supportAnnotationsVersion"
+    api 'androidx.annotation:annotation:1.0.1'
     api "io.reactivex.rxjava2:rxjava:$rootProject.rxVersion"
-    compileJavadoc "com.android.support:support-annotations:$rootProject.supportAnnotationsVersion"
+    compileJavadoc 'androidx.annotation:annotation:1.0.1'
     compileJavadoc "io.reactivex.rxjava2:rxjava:$rootProject.rxVersion"
 
     testImplementation project(':nucleus-test-kit')

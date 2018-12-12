@@ -1,6 +1,6 @@
 package nucleus5.factory;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import nucleus5.presenter.Presenter;
 

@@ -52,7 +52,7 @@ dependencies {
     annotationProcessor 'frankiesardo:icepick-processor:3.2.0'
 
     def supportVersion = '28.0.0'
-    api "com.android.support:recyclerview-v7:$supportVersion"
+    api 'androidx.recyclerview:recyclerview:1.1.0-alpha01'
 
     def daggerVersion = '2.19'
     api "javax.annotation:javax.annotation-api:1.2"

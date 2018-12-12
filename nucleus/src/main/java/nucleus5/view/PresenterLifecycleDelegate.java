@@ -2,8 +2,7 @@ package nucleus5.view;
 
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.annotation.Nullable;
-
+import androidx.annotation.Nullable;
 import nucleus5.factory.PresenterFactory;
 import nucleus5.factory.PresenterStorage;
 import nucleus5.presenter.Presenter;

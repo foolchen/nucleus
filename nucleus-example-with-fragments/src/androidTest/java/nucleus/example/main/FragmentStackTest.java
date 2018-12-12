@@ -1,11 +1,11 @@
 package nucleus.example.main;
 
 import android.app.Activity;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.test.ActivityInstrumentationTestCase2;
 import android.test.UiThreadTest;
 
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import nucleus.example.TestActivity;
 
 public class FragmentStackTest extends ActivityInstrumentationTestCase2<TestActivity> {

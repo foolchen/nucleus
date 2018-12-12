@@ -2,10 +2,9 @@ package nucleus.example.ui.main;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.widget.CheckBox;
 
+import androidx.fragment.app.Fragment;
 import javax.inject.Inject;
 
 import butterknife.Bind;

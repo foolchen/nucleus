@@ -1,7 +1,7 @@
 package nucleus.example.main;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import javax.inject.Inject;
 
