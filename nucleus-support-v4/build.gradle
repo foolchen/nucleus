@@ -22,7 +22,7 @@ configurations {
 
 dependencies {
     api 'androidx.legacy:legacy-support-v4:1.0.0'
-    api "info.android15.nucleus5:nucleus:$VERSION_NAME"
+    api project(':nucleus')
     api 'androidx.legacy:legacy-support-v4:1.0.0'
     compileJavadoc "info.android15.nucleus5:nucleus:$VERSION_NAME"
 }
